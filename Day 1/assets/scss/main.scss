@@ -1,0 +1,30 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+.app {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .timer {
+        width: 200px;
+        text-align: center;
+        padding: 15px;
+        color: #f3f3f3;
+        background: #171717;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .buttons {
+        padding: 15px;
+        text-align: center;
+        width: 200px;
+        background: #f3f3f3;
+        border-radius: 0px 0px 8px 8px;
+
+    }
+}
